@@ -11,11 +11,3 @@ meetSam.meet_sam module
    :members:
    :undoc-members:
    :show-inheritance:
-
-Module contents
----------------
-
-.. automodule:: meetSam.meet_sam
-   :members:
-   :undoc-members:
-   :show-inheritance:
