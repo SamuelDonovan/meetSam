@@ -1,8 +1,5 @@
-meetSam.meet_sam package
-========================
-
-Submodules
-----------
+meetSam package
+===============
 
 meetSam.meet_sam module
 -----------------------

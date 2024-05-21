@@ -1,6 +1,6 @@
 [project]
 name = "meetSam"
-version = "0.0.1"
+version = "0.0.2"
 description = "A somewhat creative attempt at business cards"
 readme = "README.rst"
 

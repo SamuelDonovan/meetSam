@@ -1,5 +1,5 @@
-Welcome to meetSam's documentation!
-===================================
+Meet Sam!
+=========
 
 .. note::
 
@@ -10,4 +10,7 @@ Contents
 
 .. toctree::
 
-   meetSam 
+   experience
+   education
+   usage 
+   meetSam
