@@ -1,8 +1,13 @@
 [project]
 name = "meetSam"
 version = "0.0.2"
-description = "A somewhat creative attempt at business cards"
+description = "A resume/website silly thing I'm doing for fun."
 readme = "README.rst"
+
+[project.urls]
+Homepage = "https://meetsam.readthedocs.io"
+Documentation = "https://meetsam.readthedocs.io"
+Repository = "https://github.com/SamuelDonovan/meetSam"
 
 [build-system]
 requires = ["setuptools >= 61.0"]

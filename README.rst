@@ -1,7 +1,7 @@
 Meet Sam
 ========
 
-|Doc badge| |Black badge| |Pypi badge|
+|Doc badge| |Black badge| |Pypi badge| |Github badge|
 
 .. |Doc badge| image:: https://readthedocs.org/projects/meetsam/badge/?version=latest
        :target: https://meetsam.readthedocs.io/en/latest/?badge=latest
@@ -13,3 +13,32 @@ Meet Sam
 
 .. |Pypi badge| image:: https://badge.fury.io/py/meetSam.svg
        :target: https://badge.fury.io/py/meetSam
+
+.. |Github badge| image:: https://img.shields.io/badge/GitHub-meetSam-blue
+   :target: https://github.com/SamuelDonovan/meetSam
+   :alt: GitHub Repository for meetSam
+
+Usage
+=====
+
+Installation
+------------
+
+.. code-block:: console
+
+   (.venv) $ pip install meetSam 
+
+Console Usage
+-------------
+
+.. code-block:: console
+
+   (.venv) $ python -m meetSam 
+
+Python Usage
+-------------
+
+.. code-block:: console
+
+   >>> import meetSam
+   >>> meetSam.main()
