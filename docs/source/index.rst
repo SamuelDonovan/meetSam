@@ -31,5 +31,6 @@ Contents
 
    experience
    education
+   skills 
    usage 
    meetSam
