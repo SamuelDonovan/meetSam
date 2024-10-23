@@ -1,75 +1,116 @@
 #!/usr/bin/env python3
 
-def name():
+
+def name() -> str:
     """
     Provides my full name.
-    
-    :return: My full name 
+
+    :return: My full name
     :rtype: str
     """
-    return("Samuel Mehalko")
+    return "Samuel Mehalko"
 
-def title():
+
+def title() -> str:
     """
     Provides my title at the company that I am employeed.
-    
+
     :return: My title
     :rtype: str
     """
-    return("Principle Embedded Software Engineer")
+    return "Principle Embedded Software Engineer"
 
-def company():
+
+def company() -> str:
     """
     Provides the name of the company that I am employeed.
-    
+
     :return: My company
     :rtype: str
     """
-    return("Northrop Grumman Corporation")
+    return "Northrop Grumman Corporation"
 
-def email():
+
+def email() -> str:
     """
     Provides my office email address.
-    
-    :return: My email address 
+
+    :return: My email address
     :rtype: str
     """
-    return("samuel.mehalko@ngc.com")
+    return "samuel.mehalko@ngc.com"
 
-def site():
+
+def site() -> str:
     """
     Provides the url of readthedocs website for this repo.
-    
+
     :return: The readthedocs url
     :rtype: str
     """
-    return("https://meetsam.readthedocs.io/en/latest/")
+    return "https://meetsam.readthedocs.io"
 
-def source():
+
+def source() -> str:
     """
     Provides the url of the this package's source github url.
-    
+
     :return: This source code's github url.
     :rtype: str
     """
-    return("https://github.com/SamuelDonovan/meetSam")
+    return "https://github.com/SamuelDonovan/meetSam"
 
-def main():
+
+def installation() -> str:
+    """
+    Provides the pip installation command for meetSam. 
+
+    :return: The pip installation command for meetSam. 
+    :rtype: str
+    """
+    return "pip install meetSam"
+
+
+def qr_code() -> str:
+    return """
+    █▀▀▀▀▀█ █▄█ ▄▀█   █▀▀▀▀▀█
+    █ ███ █  █ █▀█▄ █ █ ███ █
+    █ ▀▀▀ █ █▄█  ▀▀   █ ▀▀▀ █
+    ▀▀▀▀▀▀▀ █ █▄█ █▄█ ▀▀▀▀▀▀▀
+    ███  █▀▄▀█▀▄▀  ▄▀▀██▀▄ ██
+     █    ▀▄█▄ █ ▀ ▀▄▄▀▄██▀ ▀
+    ▀▀  ▀█▀▄ ▀ █▄ ▄▄█ ██   ▄█
+    ▀▀ ▄▄ ▀▄▀  █ ▀ ▀ ▄▀▄▄█▀ ▀
+    ▀▀▀▀▀▀▀▀▄▄ ██▄ ▀█▀▀▀█  ▀▄
+    █▀▀▀▀▀█ ▄█ █▄▀▀▄█ ▀ █  ▄█
+    █ ███ █  ▄█▄█  ███▀▀█ ▄▄ 
+    █ ▀▀▀ █ █▄▀▀█▀▄██▄ ██▀ ▀▀
+    ▀▀▀▀▀▀▀ ▀▀ ▀▀   ▀▀▀  ▀  ▀
+    """
+
+
+def main() -> str:
     """
     Provides a short blurb of of my contact information as well as some fun links.
-    
+
     :return: My contact information as well as some fun links.
     :rtype: str
     """
-    print(f"""
+    print(
+        f"""
     Hi, my name is {name()}!
-    I am an {title()}
+    I am a {title()}
     working for {company()}.
-    I can be reached via email (preferred) at {email()}
+    I can be reached via email at {email()}
 
     The python package used to generate this text can be found at {site()}
     and the source can be found at {source()}
-    """)
+
+    QR code to site:
+    {qr_code()}
+    """
+    )
+
 
 if __name__ == "__main__":
     main()

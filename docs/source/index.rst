@@ -1,7 +1,7 @@
 Meet Sam!
 =========
 
-Meet Sam! A silly resume/website thing I'm doing I guess.
+Meet Sam!
 
 |Doc badge| |Black badge| |Pypi badge| |Github badge|
 
@@ -31,6 +31,7 @@ Contents
 
    experience
    education
+   clearance 
    skills 
    usage 
    meetSam
