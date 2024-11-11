@@ -20,10 +20,6 @@ Meet Sam!
    :target: https://github.com/SamuelDonovan/meetSam
    :alt: GitHub Repository for meetSam
 
-.. note::
-
-   This project is under active development.
-
 Contents
 --------
 

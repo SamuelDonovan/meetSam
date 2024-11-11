@@ -1,6 +1,6 @@
 
                 Samuel Mehalko
-      Principle Embedded Software Engineer      
+    Sr. Principle Embedded Software Engineer      
 
                    |    █▀▀▀▀▀█ █▄█ ▄▀█   █▀▀▀▀▀█
                    |    █ ███ █  █ █▀█▄ █ █ ███ █

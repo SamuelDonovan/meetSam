@@ -2,7 +2,7 @@ def name():
     return "Samuel Mehalko"
 
 def title():
-    return "Principle Embedded Software Engineer"
+    return "Sr. Principle Embedded Software Engineer"
 
 def company():
     return "Northrop Grumman Corporation"

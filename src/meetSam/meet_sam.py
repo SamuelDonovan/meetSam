@@ -18,7 +18,7 @@ def title() -> str:
     :return: My title
     :rtype: str
     """
-    return "Principle Embedded Software Engineer"
+    return "Senior Principle Embedded Software Engineer"
 
 
 def company() -> str:
@@ -72,6 +72,12 @@ def installation() -> str:
 
 
 def qr_code() -> str:
+    """
+    Provides a QR code for the website URL.
+
+    :return: The QR code. 
+    :rtype: str
+    """
     return """
     █▀▀▀▀▀█ █▄█ ▄▀█   █▀▀▀▀▀█
     █ ███ █  █ █▀█▄ █ █ ███ █
