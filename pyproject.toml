@@ -1,7 +1,7 @@
 [project]
 name = "meetSam"
-version = "0.0.2"
-description = "A resume/website silly thing I'm doing for fun."
+version = "0.0.3"
+description = "A resume/website thing."
 readme = "README.rst"
 
 [project.urls]
