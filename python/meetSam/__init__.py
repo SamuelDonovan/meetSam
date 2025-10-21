@@ -1,1 +1,1 @@
-from .meet_sam import main
+from .meet_sam import * 

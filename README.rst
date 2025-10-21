@@ -18,11 +18,11 @@ Meet Sam
    :target: https://github.com/SamuelDonovan/meetSam
    :alt: GitHub Repository for meetSam
 
-Usage
-=====
+Python
+======
 
-Installation
-------------
+Installation From Pypi
+----------------------
 
 .. code-block:: console
 
@@ -40,5 +40,28 @@ Python Usage
 
 .. code-block:: console
 
+   python
    >>> import meetSam
    >>> meetSam.main()
+   >>> meetSam.site()
+   >>> help(meetSam.meet_sam)
+
+C++
+===
+
+Installation From Source 
+------------------------
+
+.. code-block:: console
+
+   $ cd cpp
+   $ cmake -B build
+   $ make -j
+   $ sudo make install
+
+Console Usage
+-------------
+
+.. code-block:: console
+
+   $ meetSam 
