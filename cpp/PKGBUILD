@@ -1,0 +1,17 @@
+pkgname=meetSam
+pkgver=0.0.3
+pkgrel=1
+arch=('x86_64')
+url="https://example.com"
+license=('MIT')
+depends=()
+makedepends=('cmake' 'gcc')
+source=()
+build() {
+    cmake -B build -S "$srcdir/../" -DCMAKE_BUILD_TYPE=Release
+    cmake --build build
+}
+package() {
+    DESTDIR="$pkgdir" cmake --install build
+}
+
