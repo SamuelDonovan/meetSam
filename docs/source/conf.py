@@ -13,13 +13,13 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath("../../src/"))
+sys.path.insert(0, os.path.abspath("../../python/"))
 
 
 # -- Project information -----------------------------------------------------
 
 project = "Meet Sam"
-copyright = "2024, Samuel Mehalko"
+copyright = "2025, Samuel Mehalko"
 author = "Samuel Mehalko"
 
 
